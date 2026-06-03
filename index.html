@@ -133,6 +133,7 @@
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
       <ul>
+        <li>[06/2026] Two papers are accepted for publication in IEEE/ASME Transactions on Mechatronics!</li>
         <li>[05/2026] Defended my Ph.D. in Robotics. Thesis committee: <a href="https://www.dase.hku.hk/people/n-xi">Ning Xi</a>, <a href="https://xjqi.github.io/">Xiaojuan Qi</a>, <a href="https://www.dase.hku.hk/people/j-liu">Jun Liu</a>, and <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yajing-shen-eeyajing#researchinterest">Yajing Shen</a>.</li>
         <li>[04/2026] Our paper <a href="https://ieeexplore.ieee.org/document/11520412">F-Fold2</a> is accepted for publication in IEEE/ASME Transactions on Mechatronics! Enjoy the read! </li>
         <li>[04/2026] <a href="https://ieeexplore.ieee.org/document/11297817">Our paper</a> is accepted for publication in IEEE Robotics and Automation Letters!</li>
@@ -153,6 +154,67 @@
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://leledeyuan00.github.io/phaser/">
+    <video playsinline autoplay loop muted src="images/phaser/phase.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://leledeyuan00.github.io/phaser/" id="PHASER">
+      <heading>Phase-Conditioned Imitation Learning with Autonomous Failure Recovery for Robust Deformable Object Manipulation</heading></a><br>
+      Dayuan Chen, Kai Tang, Yukuan Zhang, Kazuhiro Kosuge, Yasuhisa Hirata<br>
+      IEEE/ASME Transactions on Mechatronics (T-Mech), 2026<br>
+      </p>
+      <div class="paper" id="phaser">
+      <a href="https://leledeyuan00.github.io/phaser/">webpage</a> |
+      <a href="https://arxiv.org/pdf/2605.29407">pdf</a> |
+      <a href="javascript:toggleblock('phaser_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('phaser')" class="togglebib">bibtex</a> |
+      <a href="https://arxiv.org/abs/2605.29407">arXiv</a>
+
+      <p align="justify"> <i id="phaser_abs">This paper presents a phase-conditioned, force-aware framework for robust deformable object manipulation. Standard imitation learning policies such as Action Chunking with Transformers (ACT) rely on a Markovian assumption at inference, causing state aliasing when visually similar observations require contradictory actions and preventing autonomous recovery from execution failures. We address this with a closed-loop hierarchical architecture. A FiLM-conditioned ACT encoder modulates feature extraction based on the current task phase, enabling a single unified policy to produce phase-specific behaviors while sharing action dynamics across phases. A multi-modal phase predictor fusing visual, force, and pose feedback estimates the phase in real time, detecting contact failures that are invisible to vision alone and autonomously triggering recovery trajectories. The system is completed by a hybrid impedance controller for compliant execution and a haptic teleoperation interface for force-aware data collection. Ablation studies show that FiLM-based modulation significantly outperforms both unconditioned and token-level conditioned baselines, and t-SNE analysis confirms that FiLM induces well-separated, phase-specific feature representations. Validated on hanging and removing a T-shirt with dual arms, the closed-loop system improves the hanging success rate from 56% to 87% through autonomous error recovery.</i></p>
+
+<pre class="bibtex">@misc{chen2026phaseconditionedimitationlearningautonomous,
+  title={Phase-Conditioned Imitation Learning with Autonomous Failure Recovery for Robust Deformable Object Manipulation},
+  author={Dayuan Chen and Kai Tang and Yukuan Zhang and Kazuhiro Kosuge and Yasuhisa Hirata},
+  year={2026},
+  eprint={2605.29407},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2605.29407}
+}</pre>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/11540242">
+    <video playsinline autoplay loop muted src="images/timescale/exp.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://ieeexplore.ieee.org/document/11540242" id="SFDS_SEWING">
+      <heading>Modeling and Control for Automated Sewing of Stretchable Fabrics of Different Shapes</heading></a><br>
+      Bingchen Jin, Kai Tang, Norman C. Tien, Kazuhiro Kosuge<br>
+      IEEE/ASME Transactions on Mechatronics (T-Mech), 2026<br>
+      </p>
+      <div class="paper" id="sfds_sewing">
+      <a href="https://ieeexplore.ieee.org/document/11540242">paper</a> |
+      <a href="javascript:toggleblock('sfds_sewing_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('sfds_sewing')" class="togglebib">bibtex</a>
+
+      <p align="justify"> <i id="sfds_sewing_abs">Automating sewing remains challenging due to the deformable and condition-dependent behavior of fabrics, especially in sewing fabrics of different shapes (SFDS), where two layers of stretchable fabrics of different lengths and/or curvatures must be aligned and stitched along a desired seam. Existing robotic sewing platforms often rely on fixtures and neglect fabric deformation. This article proposes an automated sewing system that accounts for fabric deformation within planning and control. We introduce an online modeling approach based on autoregressive with exogenous input, which learns fabric sewing dynamics during operation, implicitly capturing the effect of the deformation characteristics of the fabric. Building on this model, we design a model predictive control-based controller that controls the fabric feeding direction to guide fabric layers accurately along the desired seam together with the visual servoing system. We implemented the proposed control system on an experimental prototype that comprises an overlock sewing machine, two manipulators with roller-type end effectors, a real-time sewing speed sensing module, and a seam detection module. The proposed system effectively stretches and rotates the upper and lower fabrics independently to match the seam lengths and curvatures. The experimental results demonstrate the effectiveness of the proposed scheme for SFDS.</i></p>
+
+<pre class="bibtex">@article{11540242,
+  author={Jin, Bingchen and Tang, Kai and Tien, Norman C. and Kosuge, Kazuhiro},
+  journal={IEEE/ASME Transactions on Mechatronics},
+  title={Modeling and Control for Automated Sewing of Stretchable Fabrics of Different Shapes},
+  year={2026},
+  pages={1-9},
+  doi={10.1109/TMECH.2026.3693767}
+}</pre>
+      </div>
+    </td>
+  </tr>
 
   <tr>
     <td width="40%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/11520412">
@@ -621,6 +683,8 @@
 hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
+  hideblock('phaser_abs');
+  hideblock('sfds_sewing_abs');
   hideblock('rtff_abs');
   hideblock('transformer_vs_abs');
   hideblock('fabric_align_abs');
