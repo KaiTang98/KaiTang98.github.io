@@ -99,7 +99,7 @@
   <tr>
     <td width="30%" valign="top"><a href="images/kaitang_2.png"><img src="images/kaitang_2.png" width="100%" style="border-radius:15px"></a>
     <p align=center>
-    | <a href="data/kaitang_cv.pdf">CV</a> |
+    | <a href="data/cv_KaiTang.pdf">CV</a> |
     <a href="mailto:k.tang98@outlook.com">Email</a> |
     <a href="https://scholar.google.com/citations?user=Cey8IaQAAAAJ">Google Scholar</a> |
     <br/>
@@ -133,6 +133,8 @@
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
       <ul>
+        <li>[08/2026] Our paper <a href="#RTFF">RTFF</a> is accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)!</li>
+        <li>[08/2026] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/11614102">Robotic Fabric Alignment System for Sewing Using Global Local Weighted ICP</a> is accepted for publication in IEEE Transactions on Automation Science and Engineering (T-ASE)!</li>
         <li>[06/2026] Two papers are accepted for publication in IEEE/ASME Transactions on Mechatronics!</li>
         <li>[05/2026] Defended my Ph.D. in Robotics. Thesis committee: <a href="https://www.dase.hku.hk/people/n-xi">Ning Xi</a>, <a href="https://xjqi.github.io/">Xiaojuan Qi</a>, <a href="https://www.dase.hku.hk/people/j-liu">Jun Liu</a>, and <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yajing-shen-eeyajing#researchinterest">Yajing Shen</a>.</li>
         <li>[04/2026] Our paper <a href="https://ieeexplore.ieee.org/document/11520412">F-Fold2</a> is accepted for publication in IEEE/ASME Transactions on Mechatronics! Enjoy the read! </li>
@@ -154,6 +156,35 @@
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://kaitang98.github.io/RTFF_Policy/">
+    <video playsinline autoplay loop muted src="images/rtff/rtff.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://kaitang98.github.io/RTFF_Policy/" id="RTFF">
+      <heading>RTFF: Random-to-Target Fabric Flattening Policy using Dual-Arm Manipulator</heading></a><br>
+      Kai Tang*, Dipankar Bhattacharya*, Hang Xu, Fuyuki Tokuda, Norman C. Tien, Kazuhiro Kosuge<br>
+      IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026<br>
+      </p>
+      <div class="paper" id="rtff">
+      <a href="https://kaitang98.github.io/RTFF_Policy/">webpage</a> |
+      <a href="https://arxiv.org/pdf/2510.00814">pdf</a> |
+      <a href="javascript:toggleblock('rtff_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('rtff')" class="togglebib">bibtex</a> |
+      <a href="https://arxiv.org/abs/2510.00814">arXiv</a>  
+      
+      <p align="justify"> <i id="rtff_abs">Robotic fabric manipulation in garment production for sewing, cutting, and ironing requires reliable flattening and alignment, yet remains challenging due to fabric deformability, effectively infinite degrees of freedom, and frequent occlusions from wrinkles, folds, and the manipulator's End‑Effector (EE) and arm. To address these issues, this paper proposes the first Random‑to‑Target Fabric Flattening (RTFF) policy, which aligns a random wrinkled fabric state to an arbitrary wrinkle‑free target state. The proposed policy adopts a hybrid Imitation Learning–Visual Servoing (IL–VS) framework, where IL learns with explicit fabric models for coarse alignment of the wrinkled fabric toward a wrinkle‑free state near the target, and VS ensures fine alignment to the target. Central to this framework is a template‑based mesh that offers precise target state representation, wrinkle‑aware geometry prediction, and consistent vertex correspondence across RTFF manipulation steps, enabling robust manipulation and seamless IL‑VS switching. Leveraging the power of mesh, a novel IL solution for RTFF—Mesh Action Chunking Transformer (MACT)—is then proposed by conditioning the mesh information into a Transformer-based policy. The RTFF policy is validated on a real dual‑arm tele‑operation system, showing zero‑shot alignment to different targets, high accuracy, and strong generalization across fabrics and scales.</i></p>
+
+<pre class="bibtex">@inproceedings{tang2025rtff,
+  title={RTFF: Random-to-Target Fabric Flattening Policy using Dual-Arm Manipulator},
+  author={Kai Tang and Dipankar Bhattacharya and Hang Xu and Fuyuki Tokuda and Norman C. Tien and Kazuhiro Kosuge},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2026}
+}</pre>
+      </div>
+    </td>
+  </tr>
 
   <tr>
     <td width="40%" valign="top" align="center"><a href="https://leledeyuan00.github.io/phaser/">
@@ -248,33 +279,34 @@
   </tr>
 
   <tr>
-    <td width="40%" valign="top" align="center"><a href="https://kaitang98.github.io/RTFF_Policy/">
-    <video playsinline autoplay loop muted src="images/rtff/rtff.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    <td width="40%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/abstract/document/11614102">
+    <video playsinline autoplay loop muted src="images/glwicp/video.mp4" poster="./images/loading-icon.gif" alt="fabric_align" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
     </a></td>
     <td width="60%" valign="top">
-      <p><a href="https://kaitang98.github.io/RTFF_Policy/" id="RTFF">
-      <heading>RTFF: Random-to-Target Fabric Flattening Policy using Dual-Arm Manipulator</heading></a><br>
-      Kai Tang*, Dipankar Bhattacharya*, Hang Xu, Fuyuki Tokuda, Norman C. Tien, Kazuhiro Kosuge<br>
-      arXiv preprint, 2025<br>
+      <p><a href="https://ieeexplore.ieee.org/abstract/document/11614102" id="FABRIC_ALIGN">
+      <heading>Robotic Fabric Alignment System for Sewing Using Global Local Weighted ICP</heading></a><br>
+      Wenbo Dong, Dipankar Bhattacharya, Kai Tang, Akinari Kobayashi, Fuyuki Tokuda, Akira Seino, Norman C. Tien, Kazuhiro Kosuge<br>
+      IEEE Transactions on Automation Science and Engineering (T-ASE), 2026<br>
       </p>
-      <div class="paper" id="rtff">
-      <a href="https://kaitang98.github.io/RTFF_Policy/">webpage</a> |
-      <a href="https://arxiv.org/pdf/2510.00814">pdf</a> |
-      <a href="javascript:toggleblock('rtff_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('rtff')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/2510.00814">arXiv</a>  
-      
-      <p align="justify"> <i id="rtff_abs">Robotic fabric manipulation in garment production for sewing, cutting, and ironing requires reliable flattening and alignment, yet remains challenging due to fabric deformability, effectively infinite degrees of freedom, and frequent occlusions from wrinkles, folds, and the manipulator's End‑Effector (EE) and arm. To address these issues, this paper proposes the first Random‑to‑Target Fabric Flattening (RTFF) policy, which aligns a random wrinkled fabric state to an arbitrary wrinkle‑free target state. The proposed policy adopts a hybrid Imitation Learning–Visual Servoing (IL–VS) framework, where IL learns with explicit fabric models for coarse alignment of the wrinkled fabric toward a wrinkle‑free state near the target, and VS ensures fine alignment to the target. Central to this framework is a template‑based mesh that offers precise target state representation, wrinkle‑aware geometry prediction, and consistent vertex correspondence across RTFF manipulation steps, enabling robust manipulation and seamless IL‑VS switching. Leveraging the power of mesh, a novel IL solution for RTFF—Mesh Action Chunking Transformer (MACT)—is then proposed by conditioning the mesh information into a Transformer-based policy. The RTFF policy is validated on a real dual‑arm tele‑operation system, showing zero‑shot alignment to different targets, high accuracy, and strong generalization across fabrics and scales.</i></p>
+      <div class="paper" id="fabric_align">
+      <a href="https://ieeexplore.ieee.org/abstract/document/11614102">pdf</a> |
+      <a href="javascript:toggleblock('fabric_align_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('fabric_align')" class="togglebib">bibtex</a> |
+      <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.175691617.74372270/v1">arXiv</a>
 
-<pre class="bibtex">@misc{tang2025rtff,
-  title={RTFF: Random-to-Target Fabric Flattening Policy using Dual-Arm Manipulator},
-  author={Kai Tang and Dipankar Bhattacharya and Hang Xu and Fuyuki Tokuda and Norman C. Tien and Kazuhiro Kosuge},
-  year={2025},
-  eprint={2510.00814},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  url={https://arxiv.org/abs/2510.00814}
-}</pre>
+      <p align="justify"> <i id="fabric_align_abs">Accurate fabric alignment is a critical step that must be performed before sewing. This paper presents a novel automated fabric alignment system that estimates the poses of top and bottom fabric panels—lying flat and wrinkle-free in arbitrary positions—using a new Global Local Weighted Iterative Closest Point (GLW-ICP) method, and manipulates the top panel to achieve precise alignment at both edges and sewing lines. Unlike conventional approaches, GLW-ICP robustly aligns both global edges and local sewing lines by globally aligning fabric edge points and locally aligning sewing line points to their corresponding CAD model points, while removing unmatched points in occluded regions. Real-world experiments with various fabric shapes show that the system consistently achieves millimeter-level alignment accuracy under both occlusion and non-occlusion conditions, demonstrating its effectiveness and suitability for automated fabric alignment in practical scenarios.</i></p>
+
+<pre class="bibtex">@ARTICLE{11614102,
+  author={Dong, Wenbo and Bhattacharya, Dipankar and Tang, Kai and Kobayashi, Akinari and Tokuda, Fuyuki and Seino, Akira and Tien, Norman C. and Kosuge, Kazuhiro},
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={Robotic Fabric Alignment System for Sewing Using Global Local Weighted ICP}, 
+  year={2026},
+  volume={23},
+  number={},
+  pages={13391-13406},
+  keywords={Fabrics;Iterative closest point algorithm;Pose estimation;End effectors;Educational institutions;Modeling;Shape;Matrices;Design automation;Accuracy;Fabric alignment;iterative closest point (ICP);fabric pose estimation;robotic manipulation},
+  doi={10.1109/TASE.2026.3713128}}
+</pre>
       </div>
     </td>
   </tr>
@@ -311,34 +343,7 @@
     </td>
   </tr>
 
-  <tr>
-    <td width="40%" valign="top" align="center"><a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.175691617.74372270/v1">
-    <video playsinline autoplay loop muted src="images/glwicp/video.mp4" poster="./images/loading-icon.gif" alt="fabric_align" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
-    </a></td>
-    <td width="60%" valign="top">
-      <p><a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.175691617.74372270/v1" id="FABRIC_ALIGN">
-      <heading>A Novel Fabric Alignment System for Sewing</heading></a><br>
-      Wenbo Dong, Kai Tang, Dipankar Bhattacharya, Akinari Kobayashi, Fuyuki Tokuda, Akira Seino, Norman C. Tien, Kazuhiro Kosuge<br>
-      TechRxiv preprint, 2025<br>
-      </p>
-      <div class="paper" id="fabric_align">
-      <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.175691617.74372270/v1">pdf</a> |
-      <a href="javascript:toggleblock('fabric_align_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('fabric_align')" class="togglebib">bibtex</a>
 
-      <p align="justify"> <i id="fabric_align_abs">Accurate fabric alignment is a critical step that must be performed before sewing. This paper presents a novel automated fabric alignment system that estimates the poses of top and bottom fabric panels—lying flat and wrinkle-free in arbitrary positions—using a new Global Local Weighted Iterative Closest Point (GLW-ICP) method, and manipulates the top panel to achieve precise alignment at both edges and sewing lines. Unlike conventional approaches, GLW-ICP robustly aligns both global edges and local sewing lines by globally aligning fabric edge points and locally aligning sewing line points to their corresponding CAD model points, while removing unmatched points in occluded regions. Real-world experiments with various fabric shapes show that the system consistently achieves millimeter-level alignment accuracy under both occlusion and non-occlusion conditions, demonstrating its effectiveness and suitability for automated fabric alignment in practical scenarios.</i></p>
-
-<pre class="bibtex">@article{dong2025novel,
-  author={Dong, Wenbo and Tang, Kai and Bhattacharya, Dipankar and Kobayashi, Akinari and Tokuda, Fuyuki and Seino, Akira and Tien, Norman C. and Kosuge, Kazuhiro},
-  title={A Novel Fabric Alignment System for Sewing},
-  year={2025},
-  publisher={TechRxiv},
-  doi={10.36227/techrxiv.175691617.74372270/v1}
-}
-</pre>
-      </div>
-    </td>
-  </tr>
 
   <tr>
     <td width="40%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/11091470">
